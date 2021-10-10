@@ -5,6 +5,6 @@ const dbConnection = mysql.createPool({
     user: "nltserveruser",
     password: "nltserver",
     database: "newleaderstechwebsite",
-    connectTimeout: 20000
+    connectTimeout: 30000
 });
 module.exports = dbConnection;
