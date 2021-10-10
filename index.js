@@ -19,6 +19,11 @@ app.get('/', (req, res) => {
     res.send("<div height:500px,width:500px,background_color:green ><br/><p>This is how server looks </p><div>")
 
 })
+app.get('/a', (req, res) => {
+
+    res.send("<div height:500px,width:500px,background_color:green ><br/><p>The Fucking cra xy nav </p><div>")
+
+})
 
 //message_post 
 app.post("/message_post", (req, res) => {
